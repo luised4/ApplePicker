@@ -207,6 +207,22 @@ MonoBehaviour:
   leftAndRightEdge: 10
   chanceToChangeDirections: 0.1
   secondsBetweeenAppleDrops: 1
+--- !u!1 &653938908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1756897403692728, guid: 1023512a2c697f3488369ec3e4423a28,
+    type: 2}
+  m_PrefabInternal: {fileID: 1330084339}
+--- !u!114 &653938910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 653938908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2efa237fc1f9548a397398f5045c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &779766690 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1528030839684868, guid: 1023512a2c697f3488369ec3e4423a28,
@@ -223,7 +239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b36355f1164a048a5c0ff22777481f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
+  applePrefab: {fileID: 1467010964307048, guid: db8a0364ab7e6554e83489b20ab9f3a0,
+    type: 2}
   speed: 1
   leftAndRightEdge: 10
   chanceToChangeDirections: 0.1
