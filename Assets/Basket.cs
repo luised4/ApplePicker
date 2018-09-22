@@ -8,7 +8,7 @@ public class Basket : MonoBehaviour
     private void Start()
     {
         GameObject  scoreGO = GameObject.Find("ScoreCounter");
-        scoreGT=scoreGO.GetComponent<Text>();
+        scoreGT = scoreGO.GetComponent<Text>();
         scoreGT.text = "0";
 
     }

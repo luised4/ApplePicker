@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Apple : MonoBehaviour {
-    public static float bottomY = 20f;
+    public static float bottomY = -20f;
 	// Use this for initialization
 	
 	
@@ -11,6 +11,7 @@ public class Apple : MonoBehaviour {
 	void Update () {
         if (transform.position.y < bottomY)
         {
+           // print("Apple");
             Destroy(this.gameObject);
             ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
             apScript.AppleDestroyed();
