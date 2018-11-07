@@ -226,10 +226,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 1467010964307048, guid: db8a0364ab7e6554e83489b20ab9f3a0,
     type: 2}
-  speed: 1
-  leftAndRightEdge: 10
-  chanceToChangeDirections: 0.1
-  secondsBetweeenAppleDrops: 1
+  speed: 10
+  leftAndRightEdge: 20
+  chanceToChangeDirections: 0.02
+  secondsBetweenAppleDrops: 1
 --- !u!1 &881272424
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +483,11 @@ Prefab:
     - target: {fileID: 1756897403692728, guid: 1023512a2c697f3488369ec3e4423a28, type: 2}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 54084094331169042, guid: 1023512a2c697f3488369ec3e4423a28,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1023512a2c697f3488369ec3e4423a28, type: 2}
